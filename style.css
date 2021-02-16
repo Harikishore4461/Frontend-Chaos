@@ -93,7 +93,7 @@ ul li a:hover span {
     overflow: hidden;
     visibility: hidden;
     height: 100vh;
-    animation: fadein 0.8s 1s ease forwards;
+    animation: fadein 2s 2s ease forwards;
 }
 
 .splash {
@@ -287,10 +287,10 @@ img:hover {
 /*  */
 
 #list {
-    padding-top: 5vh;
-    display: flex;
+    /* padding-top: 5vh; */
+    display: flex; 
     width: 100%;
-    height: 150vh;
+    height: 200vh;
     background-color: #EEEEEE;
     flex-direction: column;
     justify-content: center;
@@ -312,7 +312,7 @@ body{
 }
 .container{
     position: relative;
-    margin: 0px 100px;
+    margin: 0px 50px;
 }
 .container .card{
     position: relative;
